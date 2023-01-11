@@ -2,34 +2,39 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display:flex;
     flex-direction:column;
-    
+    max-width: 2000px;
     
 }
 .header {
     display:flex;
     justify-content: end;
     align-items: center;
-    padding: 4px 42px;
+    padding: 4px 15%;
 }
 .logo {
     margin-right:auto;
+    font-size:24px;
+    color:#F9FAF8;
+    font-weight:700;
     
 }
 .header ul {
     list-style: none;
     display:flex;
+    
 }
 li a {
     text-decoration: none;
     padding: 8px;
     margin: 0;
+    color: #F9FAF8;
 }
 .section-1 {
     display:flex;
     justify-content: center;
     align-items:center;
     gap: 32px;
-    padding: 16px 42px;
+    padding: 16px 15%;
 }
 .section-1 .text {
     display:flex;
@@ -57,7 +62,7 @@ li a {
     justify-content: center;
     align-items: center;
     padding: 0 0 0 32px;
-    
+    gap:5%;
 }
 
 .items div {
@@ -67,3 +72,100 @@ li a {
     flex-wrap: wrap;
 }
 
+.section-3 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.quote-section {
+    display:flex;
+    flex-direction:column;
+    width:37.5%;
+    min-width: 750px;
+    gap: 16px;
+    padding:42px;
+}
+
+
+.quote {
+    flex-wrap:wrap;
+    font-size:36px;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.author {
+    margin-left:auto;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+.section-4 {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:48px;
+    margin: 42px auto;
+    width: 45%;
+    min-width: 900px;
+}
+
+.footer {
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+    padding:32px;
+    color: #F9FAF8;
+}
+
+.header,
+.footer,
+.section-1 {
+    background-color: #1F2937;
+}
+
+button,
+.section-4 {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius: 5px;
+}
+
+.section-3 {
+    background-color:#E5E7EB;
+}
+
+.section-1 .text h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+    padding:0;
+    margin:0;
+}
+
+.section-1 .text p {
+    font-size: 18px;
+    color:#E5E7EB;
+    padding:0;
+    margin:0;
+}
+
+.section-2 h1 {
+    font-size:36px;
+    font-weight:bolder;
+    color:#1F2937;
+}
+
+button {
+    padding:4px 32px;
+    margin:8px; 
+    font-size:20px;
+    font-weight:bold;   
+}
+
+h1,
+p {
+    padding:0;
+    margin:0;
+}
